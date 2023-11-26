@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-Porjeto de um estudo de agregador de links, promovido por RocketSeat
+Porjeto de um estudo de agregador de links, promovido pela RocketSeat
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Porjeto de um estudo de agregador de links, promovido por RocketSeat
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="#" width="100%">
+  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
