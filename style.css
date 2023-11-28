@@ -163,9 +163,10 @@ ul li a:hover {
 }
 
 footer {
+  opacity: 50%;
   padding: 24px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* media queries */
