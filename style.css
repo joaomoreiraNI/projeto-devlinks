@@ -27,7 +27,14 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
+}
+
+::-webkit-scrollbar{
+  background-color: #1d1d1d;
+  width: 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 body * {
