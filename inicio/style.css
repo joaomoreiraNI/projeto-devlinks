@@ -12,7 +12,7 @@ body {
 }
 
 .interface{
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ body {
 .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
-    font-weight: 600px;
+    font-weight: 600;
     background-color: rgb(179, 75, 240);
     border: 0;
     border-radius: 30px;
@@ -31,15 +31,25 @@ body {
     transition: .2s;
 }
 
-.btn-contato button:hover {
+h2.titulo{
     color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: rgb(179, 75, 240);
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
     box-shadow: 0px 0px 8px rgb(154, 3, 255);
     transform: scale(1.05);
 }
 
 /* ESTILO DO CABEÇALHO */
 header {
-    padding: 40px 4%;
+    padding: 30px 3%;
 }
 
 header .logo img {
@@ -78,7 +88,7 @@ header nav ul li {
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
-    padding: 40px 4%;
+    padding: 200px 4%;
 }
 
 section.topo-do-site.flex {
@@ -104,8 +114,11 @@ section.topo-do-site.flex {
 
 
 .topo-do-site .img-topo-site img {
+    max-width: 350px;
+    width: auto;
     box-shadow: 0px 0px 8px rgb(154, 3, 255);
-    border: 2px solid rgba(180, 75, 240, 0.603);
+    border: 2px solid rgb(179, 75, 240);
+    padding: 5px;
     border-radius: 50%;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
@@ -119,3 +132,109 @@ section.topo-do-site.flex {
         top: 30px;
     }
 }
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 170px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+}
+
+.especialidades .especialidades-box i{
+    font-size: 40px;
+    color: rgb(179, 75, 240);
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 200px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+section.sobre .img-sobre img{
+    border-radius: 5%;
+    max-width:400px;
+    width: auto;
+}
+
+.sobre .txt-sobre{
+    color: white;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color:rgb(179, 75, 240);
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color:rgb(179, 75, 240);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+/* ESTILO PORTFÓLIO */
+section.portfolio{
+    padding: 200px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.027);
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+}
+
+.img-port{
+    width: 600px;
+    height: 300px;
+    background-color:rgb(179, 75, 240);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 3%;
+    transition: 0.2s;
+}
+
+.img-port:hover{
+    transform: scale(1.05);
+}
+
