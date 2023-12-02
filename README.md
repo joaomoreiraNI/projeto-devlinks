@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-Porjeto de um estudo de agregador de links, promovido pela RocketSeat
+Projeto de um estudo de agregador de links, promovido pela RocketSeat
 </p>
 
 <p align="center">
@@ -40,5 +40,6 @@ O DevLinks é um agregador de links para usar como cartão de visitas online.
 Esse projeto está sob a licença MIT.
 
 ---
-
-Feito por João Moreira :wave:
+<p align="left">
+Feito por <a href="https://www.linkedin.com/in/jo%C3%A3o-moreira-6aa8251b9/">João Moreira</a> :wave:
+</p>
